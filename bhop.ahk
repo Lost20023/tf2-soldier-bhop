@@ -9,8 +9,8 @@ loop
 }
 WheelUp::
 Toggle:=false
-Send {WheelUp1}
+Send {WheelUp 1}
 Return
 WheelDown::
 Toggle:=true
-Send {WheelDown1}
+Send {WheelDown 1}
