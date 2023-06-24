@@ -1,7 +1,7 @@
 SetBatchLines,-1
 loop
 {
-	ifToggle{
+	if Toggle{
 		Send,{space}
 		Random,rand,1,3
 		Sleep,rand
